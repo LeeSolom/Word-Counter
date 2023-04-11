@@ -1,0 +1,41 @@
+#Make your own sentence and use the word you want to be chosen in the counter.
+
+
+
+Message = "There was a black figure standing across the street, In the viewable distance I could see. When I looked a little more closely I could see some of its faces. "
+
+words_message ={
+
+
+# How many times the word {The}was used = 2
+    ' The ':'Word was used [2] times',}
+word_message1 ={
+# How many times the word {Street}was used = 1
+    ' Street ':'Word was used [1] time',}
+word_message2 ={
+# How many times the word {Little}was used = 1
+    ' little ':'Word was used [1] time',}
+word_message3 ={
+# How many times the word {Across}was used = 1
+    'across':'Word was used [1] time'}
+
+
+
+
+userInput=input (' enter a word :')
+
+print(words_message)
+
+
+
+userInput=input (' enter a word :')
+
+print(word_message1)
+
+userInput=input (' enter a word :')
+
+print(word_message2)
+
+userInput=input (' enter a word :')
+
+print(word_message3)
